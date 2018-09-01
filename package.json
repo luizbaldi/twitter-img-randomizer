@@ -1,0 +1,25 @@
+{
+  "name": "twitter-img-randomizer",
+  "version": "0.1.0",
+  "description": "Simple twitter bot to read images from a folder a twit them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizbaldi/twitter-img-randomizer.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "images",
+    "randomizer"
+  ],
+  "author": "Luiz Baldi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizbaldi/twitter-img-randomizer/issues"
+  },
+  "homepage": "https://github.com/luizbaldi/twitter-img-randomizer#readme"
+}
