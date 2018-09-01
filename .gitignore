@@ -71,3 +71,10 @@ typings/
 
 # Serverless directories
 .serverless
+
+#Unecessary files
+.DS_Store
+
+# Production files
+src/config/production.js
+src/images

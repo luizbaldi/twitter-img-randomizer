@@ -2,7 +2,7 @@
   "name": "twitter-img-randomizer",
   "version": "0.1.0",
   "description": "Simple twitter bot to read images from a folder a twit them",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/luizbaldi/twitter-img-randomizer/issues"
   },
-  "homepage": "https://github.com/luizbaldi/twitter-img-randomizer#readme"
+  "homepage": "https://github.com/luizbaldi/twitter-img-randomizer#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
 }
