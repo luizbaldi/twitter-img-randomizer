@@ -14,7 +14,7 @@ const uploadRandomImage = (images) => {
     console.log('[1/4] - Selecionando uma imagem aleatóriamente supimpa')
 
     const imageToPost = getRandomImage(images)
-    const imgPath = path.join(__dirname, '..', `/images/museum/${imageToPost}`)
+    const imgPath = path.join(__dirname, '..', '..', `/images/museum/${imageToPost}`)
     const b64content = fs.readFileSync(imgPath, { encoding: 'base64' })
 
     console.log('[2/4] - Fazendo upload da imagem para o museu')
@@ -35,7 +35,7 @@ const uploadRandomImage = (images) => {
 }
 
 const moveUploadedImage = (imageToPost) => {
-  const imagesFolderPath = path.join(__dirname, '..', '/images')
+  const imagesFolderPath = path.join(__dirname, '..', '..', '/images')
   const museumImgPath = `${imagesFolderPath}/museum/${imageToPost}`
   const postedImgPath = `${imagesFolderPath}/posted/${imageToPost}`
 

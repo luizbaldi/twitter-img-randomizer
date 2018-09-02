@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/luizbaldi/twitter-img-randomizer#readme",
   "dependencies": {
+    "date-fns": "^1.29.0",
     "twit": "^2.2.11"
   }
 }

@@ -78,4 +78,4 @@ src/.DS_Store
 
 # Production files
 src/config/production.js
-src/images
+images
