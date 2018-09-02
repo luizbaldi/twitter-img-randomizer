@@ -74,6 +74,7 @@ typings/
 
 #Unecessary files
 .DS_Store
+src/.DS_Store
 
 # Production files
 src/config/production.js
